@@ -3,7 +3,7 @@
 
   $numer = $_POST['numer'];
   $nrdysp = $_POST['nrdysp'];
-  $adres = $_POST['adres'];
+$adres = $_POST['adres'];
 
 $baza=mysqli_connect('localhost','root','','ratownictwo');
       if(mysqli_connect_errno())
