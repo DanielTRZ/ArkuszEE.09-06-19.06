@@ -1,7 +1,7 @@
 
   <?php
 
-  $numer = $_POST['numer'];
+$numer = $_POST['numer'];
 $nrdysp = $_POST['nrdysp'];
 $adres = $_POST['adres'];
 
