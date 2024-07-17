@@ -5,8 +5,7 @@
   $nrdysp = $_POST['nrdysp'];
   $adres = $_POST['adres'];
 
-
-      $baza=mysqli_connect('localhost','root','','ratownictwo');
+$baza=mysqli_connect('localhost','root','','ratownictwo');
       if(mysqli_connect_errno())
       {echo"wystąpił bląd połączenia z baza";}
       $wynik=mysqli_query($baza, "INSERT INTO `zgloszenia` VALUES (NULL,'$numer','$nrdysp','$adres',0,NOW())");
