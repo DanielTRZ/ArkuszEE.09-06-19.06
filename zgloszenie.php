@@ -12,6 +12,5 @@ $wynik=mysqli_query($baza, "INSERT INTO `zgloszenia` VALUES (NULL,'$numer','$nrd
           
 echo "<center><h1> Zgłoszenie zostało dodane</h1> </center>";
  
-       
-      mysqli_close($baza);
+mysqli_close($baza);
       ?>
