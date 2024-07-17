@@ -1,5 +1,5 @@
 
-  <?php
+<?php
 
 $numer = $_POST['numer'];
 $nrdysp = $_POST['nrdysp'];
